@@ -1,0 +1,20 @@
+<application>
+  <component name="FeatureSuggesterSettings">
+    <option name="suggestionLastShownTime">
+      <map>
+        <entry key="File structure" value="1645203730775" />
+        <entry key="Paste from history" value="1645204851772" />
+      </map>
+    </option>
+    <option name="workingDays">
+      <list>
+        <option value="1645015376953" />
+        <option value="1645108033449" />
+        <option value="1645177933568" />
+        <option value="1645290429783" />
+        <option value="1645382346756" />
+        <option value="1645429772133" />
+      </list>
+    </option>
+  </component>
+</application>

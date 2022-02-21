@@ -1,0 +1,8 @@
+<templateSet group="ionic">
+  <template name="ion-presentAsModal" value="static async presentAsModal(modalController: ModalController) {&#10;    const htmlIonModalElement = await modalController.create({&#10;      component: MyComponent,&#10;    });&#10;&#10;    await htmlIonModalElement.present();&#10;  }" description="" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="JS_CLASS" value="true" />
+      <option name="TS_CLASS" value="true" />
+    </context>
+  </template>
+</templateSet>
