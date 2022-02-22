@@ -20,4 +20,11 @@
       <option name="JAVA_DECLARATION" value="true" />
     </context>
   </template>
+  <template name="davcam-rest-helper" value="import davcam.common.exception.ResourceNotFoundException;&#10;import davcam.common.helper.Helper;&#10;import it.mansolution.rest.modules.account.helper.AccountHelper;&#10;import org.springframework.beans.factory.annotation.Autowired;&#10;import org.springframework.stereotype.Component;&#10;&#10;@org.springframework.stereotype.Component&#10;public class $name$Helper implements davcam.common.helper.HelperWithFind&lt;$name$Entity, $name$Request, $name$Response&gt; {&#10;    @org.springframework.beans.factory.annotation.Autowired&#10;    private $name$JpaRepository $camelcase$JpaRepository;&#10;&#10;    @org.springframework.beans.factory.annotation.Autowired&#10;    private it.mansolution.rest.modules.account.helper.AccountHelper accountHelper;&#10;&#10;    @java.lang.Override&#10;    public $name$Response mapEntityToResponse($name$Entity $camelcase$Entity, $name$Response $camelcase$Response) {&#10;&#10;        return $camelcase$Response;&#10;    }&#10;&#10;    @java.lang.Override&#10;    public $name$Response mapEntityToResponse($name$Entity $camelcase$Entity) {&#10;        return mapEntityToResponse($camelcase$Entity, new $name$Response());&#10;    }&#10;&#10;    @java.lang.Override&#10;    public $name$Entity mapRequestToEntity($name$Request $camelcase$Request, $name$Entity $camelcase$Entity) {&#10;&#10;        return $camelcase$Entity;&#10;    }&#10;&#10;    @java.lang.Override&#10;    public $name$Entity mapRequestToEntity($name$Request $camelcase$Request) {&#10;        return mapRequestToEntity($camelcase$Request, new $name$Entity());&#10;    }&#10;&#10;    public $name$Entity findById(java.lang.Long id) {&#10;        $name$Entity $camelcase$Entity = $camelcase$JpaRepository.findById(id)&#10;                .orElseThrow(() -&gt; new davcam.common.exception.ResourceNotFoundException($name$Entity.class, id));&#10;        return $camelcase$Entity;&#10;    }&#10;}" toReformat="true" toShortenFQNames="true">
+    <variable name="name" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="camelcase" expression="camelCase(name)" defaultValue="" alwaysStopAt="false" />
+    <context>
+      <option name="JAVA_DECLARATION" value="true" />
+    </context>
+  </template>
 </templateSet>
