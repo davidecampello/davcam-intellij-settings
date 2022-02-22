@@ -96,13 +96,13 @@
     </option>
     <option name="paramGroup">
       <ParamGroup>
-        <option name="className" value="it.mansolution.rest.account.AccountController" />
-        <option name="method" value="changePassword" />
+        <option name="className" value="it.mansolution.rest.modules.mansol.mansolAgency.MansolAgencyController" />
+        <option name="method" value="findAll" />
         <option name="methodDescription" value="" />
-        <option name="methodType" value="PUT" />
+        <option name="methodType" value="GET" />
         <option name="module" value="mansolution-rest3" />
-        <option name="originUrl" value="" />
-        <option name="url" value="" />
+        <option name="originUrl" value="/mansol/agency/" />
+        <option name="url" value="/mansol/agency/" />
       </ParamGroup>
     </option>
     <option name="projectList">
