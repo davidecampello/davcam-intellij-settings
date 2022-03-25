@@ -11,7 +11,14 @@
       <driver-ref>postgresql</driver-ref>
       <synchronize>true</synchronize>
       <jdbc-driver>org.postgresql.Driver</jdbc-driver>
-      <jdbc-url>jdbc:postgresql://ec2-52-31-94-195.eu-west-1.compute.amazonaws.com:5432/d4oqjp4j1u92lm</jdbc-url>
+      <jdbc-url>jdbc:postgresql://ec2-54-195-141-170.eu-west-1.compute.amazonaws.com:5432/d1mmf4b84dscr2</jdbc-url>
+      <working-dir>$ProjectFileDir$</working-dir>
+    </data-source>
+    <data-source source="LOCAL" name="postgres@mprc:test" group="mprc" uuid="400091db-2107-442d-9f00-011f82e52cce">
+      <driver-ref>postgresql</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>org.postgresql.Driver</jdbc-driver>
+      <jdbc-url>jdbc:postgresql://ec2-54-155-22-153.eu-west-1.compute.amazonaws.com:5432/danrn5ag9om825</jdbc-url>
       <working-dir>$ProjectFileDir$</working-dir>
     </data-source>
   </component>
