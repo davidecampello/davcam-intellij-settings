@@ -33,4 +33,11 @@
       <option name="JAVA_DECLARATION" value="true" />
     </context>
   </template>
+  <template name="davcam-rest-repository" value="@Repository&#10;public class $name$Repository {&#10;    @PersistenceContext&#10;    private EntityManager entityManager;&#10;&#10;    public List&lt;$name$Entity&gt; findAllByUser(UserEntity user) {&#10;        Q$name$Entity entity = Q$name$Entity.$camelcase$Entity;&#10;        JPAQuery&lt;?&gt; query = new JPAQuery&lt;Void&gt;(entityManager).from(entity);&#10;&#10;        query.where(idv.user.eq(user)).orderBy(idv.createdTmst.desc());&#10;&#10;        return (List&lt;$name$&gt;) query&#10;                .fetch()&#10;                .stream()&#10;                .collect(Collectors.toList());&#10;    }&#10;}" description="" toReformat="true" toShortenFQNames="true">
+    <variable name="name" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="camelcase" expression="camelCase(name)" defaultValue="" alwaysStopAt="false" />
+    <context>
+      <option name="JAVA_DECLARATION" value="true" />
+    </context>
+  </template>
 </templateSet>
