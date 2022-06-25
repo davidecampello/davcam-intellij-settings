@@ -1,5 +1,9 @@
 <application>
   <component name="ParameterNameHintsSettings">
+    <option id="sql.show.column.names.for.set.operations" value="true" />
     <option id="java.simple.sequentially.numbered" value="true" />
+    <option id="sql.show.column.names.for.asterisk" value="true" />
+    <option id="sql.show.column.names.in.insert.values" value="true" />
+    <option id="sql.show.column.names.in.select" value="true" />
   </component>
 </application>
