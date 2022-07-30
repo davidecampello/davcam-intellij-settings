@@ -31,7 +31,7 @@
     <option name="SHOW_INTENTION_PREVIEW" value="true" />
   </component>
   <component name="InlayHintsSettings">
-    <option name="lastViewedProviderKeyId" value="SQL.sql.join.cardinality.hints.left.join" />
+    <option name="lastViewedProviderKeyId" value="" />
     <settingsMapElement>
       <JavaScript.js.type.hints>
         <Settings>
