@@ -3,6 +3,7 @@
     <blacklists>
       <blacklist language="TypeScript" />
     </blacklists>
+    <option id="java.multiple.params.same.type" value="true" />
     <option id="sql.show.column.names.for.set.operations" value="true" />
     <option id="java.simple.sequentially.numbered" value="true" />
     <option id="sql.show.column.names.for.asterisk" value="true" />

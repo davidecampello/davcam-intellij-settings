@@ -31,7 +31,7 @@
     <option name="SHOW_INTENTION_PREVIEW" value="true" />
   </component>
   <component name="InlayHintsSettings">
-    <option name="lastViewedProviderKeyId" value="" />
+    <option name="lastViewedProviderKeyId" value="JAVA.parameter.hints.old.java.clear.expression.type" />
     <settingsMapElement>
       <JavaScript.js.type.hints>
         <Settings>
