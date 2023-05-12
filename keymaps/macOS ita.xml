@@ -18,6 +18,7 @@
   <action id="RerunTests">
     <keyboard-shortcut first-keystroke="ctrl meta r" />
   </action>
+  <action id="copilot.requestCompletions" />
   <action id="osmedile.intellij.stringmanip.RepeatAction">
     <keyboard-shortcut first-keystroke="shift alt r" />
   </action>
