@@ -11,8 +11,13 @@
   </HTMLCodeStyleSettings>
   <TypeScriptCodeStyleSettings version="0">
     <option name="FORCE_SEMICOLON_STYLE" value="true" />
+    <option name="USE_PUBLIC_MODIFIER" value="true" />
     <option name="USE_DOUBLE_QUOTES" value="false" />
+    <option name="PREFER_EXPLICIT_TYPES_VARS_FIELDS" value="true" />
+    <option name="PREFER_EXPLICIT_TYPES_FUNCTION_RETURNS" value="true" />
+    <option name="PREFER_EXPLICIT_TYPES_FUNCTION_EXPRESSION_RETURNS" value="true" />
     <option name="OBJECT_LITERAL_WRAP" value="2" />
+    <option name="OBJECT_TYPES_WRAP" value="2" />
   </TypeScriptCodeStyleSettings>
   <editorconfig>
     <option name="ENABLED" value="false" />
@@ -24,15 +29,13 @@
     </indentOptions>
   </codeStyleSettings>
   <codeStyleSettings language="TypeScript">
-    <option name="KEEP_LINE_BREAKS" value="false" />
-    <option name="ALIGN_MULTILINE_CHAINED_METHODS" value="true" />
-    <option name="ALIGN_MULTILINE_ARRAY_INITIALIZER_EXPRESSION" value="true" />
+    <option name="CALL_PARAMETERS_WRAP" value="5" />
+    <option name="METHOD_PARAMETERS_WRAP" value="5" />
     <option name="METHOD_CALL_CHAIN_WRAP" value="2" />
-    <option name="KEEP_SIMPLE_BLOCKS_IN_ONE_LINE" value="true" />
-    <option name="KEEP_SIMPLE_METHODS_IN_ONE_LINE" value="true" />
     <option name="ARRAY_INITIALIZER_WRAP" value="2" />
     <option name="ARRAY_INITIALIZER_LBRACE_ON_NEXT_LINE" value="true" />
     <option name="ARRAY_INITIALIZER_RBRACE_ON_NEXT_LINE" value="true" />
+    <option name="ENUM_CONSTANTS_WRAP" value="2" />
     <indentOptions>
       <option name="INDENT_SIZE" value="2" />
       <option name="CONTINUATION_INDENT_SIZE" value="2" />
