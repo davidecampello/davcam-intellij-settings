@@ -31,7 +31,7 @@
   <codeStyleSettings language="TypeScript">
     <option name="RIGHT_MARGIN" value="999" />
     <option name="CALL_PARAMETERS_WRAP" value="5" />
-    <option name="METHOD_PARAMETERS_WRAP" value="5" />
+    <option name="METHOD_PARAMETERS_WRAP" value="1" />
     <option name="METHOD_CALL_CHAIN_WRAP" value="2" />
     <option name="ARRAY_INITIALIZER_WRAP" value="2" />
     <option name="ARRAY_INITIALIZER_LBRACE_ON_NEXT_LINE" value="true" />
