@@ -1,6 +1,7 @@
 <application>
   <component name="FileTypeManager" version="18">
     <extensionMap>
+      <mapping pattern="yt-dlp" type="AUTO_DETECTED" />
       <mapping pattern="APi1" type="AUTO_DETECTED" />
       <mapping pattern="3f9758e8-fba0-4cfb-bad7-d51e3cfbc5fd" type="AUTO_DETECTED" />
       <mapping pattern="initrd" type="AUTO_DETECTED" />
