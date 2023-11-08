@@ -2,6 +2,11 @@
   <HTMLCodeStyleSettings>
     <option name="HTML_ATTRIBUTE_WRAP" value="2" />
   </HTMLCodeStyleSettings>
+  <TypeScriptCodeStyleSettings version="0">
+    <option name="USE_PUBLIC_MODIFIER" value="true" />
+    <option name="USE_DOUBLE_QUOTES" value="false" />
+    <option name="FORCE_QUOTE_STYlE" value="true" />
+  </TypeScriptCodeStyleSettings>
   <editorconfig>
     <option name="ENABLED" value="false" />
   </editorconfig>
