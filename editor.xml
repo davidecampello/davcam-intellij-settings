@@ -32,6 +32,7 @@
         <entry key="java.method.chains" value="true" />
         <entry key="js.chain.hints" value="true" />
         <entry key="js.type.hints" value="true" />
+        <entry key="qodana.yaml.inspection.descriptions" value="true" />
         <entry key="ts.chain.hints" value="true" />
         <entry key="ts.enum.hints" value="true" />
         <entry key="ts.type.hints" value="true" />
@@ -43,7 +44,7 @@
     <option name="IS_ENSURE_NEWLINE_AT_EOF" value="true" />
   </component>
   <component name="InlayHintsSettings">
-    <option name="lastViewedProviderKeyId" value="SQL.sql.join.cardinality.hints.inner.join" />
+    <option name="lastViewedProviderKeyId" value="TypeScript.ts.type.hints" />
     <settingsMapElement>
       <JavaScript.js.type.hints>
         <Settings>
