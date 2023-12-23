@@ -10,7 +10,6 @@
       <mapping ext="gradle.kts" type="Kotlin" />
       <mapping ext="space.kts" type="Kotlin" />
       <mapping ext="main.kts" type="Kotlin" />
-      <mapping ext="pdf" type="Native" />
       <mapping ext="bal" type="PLAIN_TEXT" />
       <mapping ext="mxl" type="PLAIN_TEXT" />
       <mapping ext="entitlements" type="PLAIN_TEXT" />
