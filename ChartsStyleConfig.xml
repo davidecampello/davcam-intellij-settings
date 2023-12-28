@@ -27,6 +27,12 @@
                   <option name="size" value="12.0" />
                 </FontInfo>
               </option>
+              <option name="backgroundColor">
+                <ChartsJBColor>
+                  <option name="dark" value="-12105141" />
+                  <option name="light" value="-1" />
+                </ChartsJBColor>
+              </option>
               <option name="chartTitleFont">
                 <FontInfo>
                   <option name="color">
