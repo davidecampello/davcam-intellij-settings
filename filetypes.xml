@@ -12,6 +12,7 @@
       <mapping ext="main.kts" type="Kotlin" />
       <mapping ext="bal" type="PLAIN_TEXT" />
       <mapping ext="mxl" type="PLAIN_TEXT" />
+      <mapping ext="rtf" type="PLAIN_TEXT" />
       <mapping ext="entitlements" type="PLAIN_TEXT" />
       <mapping ext="mockup" type="PLAIN_TEXT" />
       <removed_mapping ext="apk" approved="true" type="ARCHIVE" />
